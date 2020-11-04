@@ -13,7 +13,11 @@ class Student(val name:String) {
     fun sayHello(firstNameParam: String, lastNameParam: String){
         println("Guten tag $firstNameParam $lastNameParam")
     }
-    
+
+    //this adalah keyword yang bisa digunakan untuk mereferensikan objek saat ini, hanya digunakan pada kelas itu saja
+    fun disBonjour(prenom:String, nomDeFamille: String){
+        println("bonjour $prenom $nomDeFamille bienvenue, my name is ${this.name}")
+    }
 }
 
 
