@@ -20,6 +20,6 @@ class Segitiga: Shape(){
         super.macamBentuk()
     }
 
-    //super constructor
+
 
 }
