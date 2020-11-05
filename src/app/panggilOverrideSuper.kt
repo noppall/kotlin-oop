@@ -6,4 +6,5 @@ fun main() {
     val bentuk2 = Segitiga()
     println(bentuk2.jumlahSisi)
     println(bentuk2.punyaParent)
+    bentuk2.macamBentuk()
 }

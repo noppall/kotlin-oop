@@ -10,4 +10,8 @@ fun main() {
     //properties langsung dari constructor
     println(nopal.username)
     println(nopal.password)
+
+    val yusak = User("yousuck", "yeeysick15")
+
+    println(yusak)  //tidak perlu dengan toString
 }
