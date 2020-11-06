@@ -22,4 +22,9 @@ fun main() {
     println(comp1 == comp2) //jika dibandingan objectnya maka akan false
     println(comp2 == comp2)
     println(comp1 != comp1)
+
+    //hashcode function adalah representasi angka unik untuk objek yang kita buat, berguna ketika ingin mengkorvesi objek menjadi angka
+    println(comp1.hashCode())
+    println(comp2.hashCode())
+    println(comp2.hashCode() == comp1.hashCode())
 }
